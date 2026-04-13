@@ -1,0 +1,15 @@
+public class Producto {
+    private double precio=2;
+    public double getPrecio(){
+        return precio;
+    }
+
+    
+}
+MAIN
+public class Main {
+    public static void main(String[] args) {
+       Producto p=new Producto();
+        System.out.println(p.getPrecio());
+    }
+}
